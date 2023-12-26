@@ -1,4 +1,13 @@
-  @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600&display=swap');
+
+/* Colors:
+  Main   Color: #0455BF / RGB: 4,85,191
+  Second Color: #03658C / RGB: 3,101,140
+  Third  Color: #0396A6 / RGB: 3,150,166
+  Fourth Color: #04BFBF / RGB: 4,191,191
+  Fifth  Color: #F23E2E / RGB: 242,62,46
+*/
+
 
   /*Reset CSS*/
   html,body{
@@ -9,5 +18,5 @@
   html{
     scroll-behavior: smooth;
   }
-
   
+
