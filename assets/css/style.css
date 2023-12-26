@@ -104,6 +104,7 @@
     font-size: 2rem;
     color:#0455BF;
   }
+  
 
   /*Tablet screeens*/
   @media screen and (min-width:768px) {
@@ -137,6 +138,7 @@
     
   }
 
+  /*Desktop Screens*/
   @media screen and (min-width:992px){
     #menu a:hover{
         border-bottom: 1px solid #0455BF;
