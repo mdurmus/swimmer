@@ -37,12 +37,15 @@
     z-index:9999;
     width:100%;
     box-shadow: 0 2px 2px #0455BF;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
   }
 
   /*Logo Settings*/
   h1{
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #0455BF;
     padding-top: 5px;
     font-weight: bold;
@@ -63,4 +66,32 @@
 
   #menu >li{
     margin-bottom: .5rem;
+  }
+
+  nav{
+    position: absolute;
+    background-color: #fff;
+    width:100%;
+    left:0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px black;
+    display: none;
+    top:100%;
+  }
+
+  #nav-dropdown:checked~nav{
+    display:block;
+  }
+
+  #nav-dropdown{
+    display:none;
+  }
+
+  .nav-dropdown-label{
+    font-size: 2rem;
+    color:#0455BF;
+  }
+
+  #logo{
+    width:80%;
   }
