@@ -107,6 +107,8 @@
 
   main{
     margin-top:37px;
+    display: flex;
+    flex: 1 0 auto;
   }
 
 
@@ -140,6 +142,8 @@
 
     main{
         margin-top:55px;
+        display: flex;
+        flex: 1 0 auto;
       }
     
   }
@@ -156,5 +160,7 @@
 
     main{
         margin-top:55px;
+        display: flex;
+        flex: 1 0 auto;
       }
   }
