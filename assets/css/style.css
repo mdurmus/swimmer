@@ -111,6 +111,22 @@
     flex: 1 0 auto;
   }
 
+  footer{
+    background-color: rgba(3,101,140, .2);
+    border-top: 1px solid black;
+  }
+
+  footer > ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 5px 10px;
+  }
+
+  #social{
+    list-style-type: none;
+  }
+
 
   /*Tablet screeens*/
   @media screen and (min-width:768px) {
@@ -146,6 +162,13 @@
         flex: 1 0 auto;
       }
     
+
+      footer > ul{
+        display: flex;
+        justify-content: space-around;
+        font-size: 3rem;
+        padding: 5px 10px;
+      }
   }
 
   /*Desktop Screens*/
