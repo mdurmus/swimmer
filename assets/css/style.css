@@ -104,12 +104,14 @@
     font-size: 2rem;
     color:#0455BF;
   }
-  
+
+  main{
+    margin-top:37px;
+  }
+
 
   /*Tablet screeens*/
   @media screen and (min-width:768px) {
-
-
     nav{
         display: block;
         position: relative;
@@ -135,6 +137,10 @@
         font-size:240%;
         padding: 0.5rem 0.5rem;
     }
+
+    main{
+        margin-top:55px;
+      }
     
   }
 
@@ -147,4 +153,8 @@
     #menu > li:hover{
         color: rgba(242,62,46, .5);
     }
+
+    main{
+        margin-top:55px;
+      }
   }
