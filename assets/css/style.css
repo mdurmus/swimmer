@@ -48,8 +48,19 @@
     font-weight: bold;
   }
 
-  /*Logo link feature*/
+  /*Logo default link feature disabled*/
   header > a {
     text-decoration: none;
     color:inherit;
+  }
+
+  /*Menu items setted*/
+  #menu{
+    list-style-type:none;
+    letter-spacing: 4px;
+    font-size:110%;
+  }
+
+  #menu >li{
+    margin-bottom: .5rem;
   }
