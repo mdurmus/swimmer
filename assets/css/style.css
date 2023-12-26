@@ -10,13 +10,31 @@
 
 
   /*Reset CSS*/
-  html,body{
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
   html{
     scroll-behavior: smooth;
   }
-  
 
+    /*General Specs*/  
+  body{
+    min-height: 100vh;
+    font-family:'Yanone Kaffeesatz',sans-serif;   
+    color:#000;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*Headerbar feature*/
+  header{
+    background-color: #fff;
+    padding: 0 1rem; 
+    position:fixed;
+    z-index:9999;
+    width:100%;
+    box-shadow: 0 2px 2px #0455BF;
+  }
