@@ -79,7 +79,6 @@
     color:#F23E2E;
   }
 
-
   nav{
     position: absolute;
     background-color: #fff;
@@ -133,7 +132,7 @@
   }
 
   section#about{
-    padding:50px 0; 
+    padding:50px 0;
   }
 
   #about-container{
@@ -175,6 +174,40 @@ div.about-box > h4
     margin-top:10px;
     line-height: 26px;
   }
+
+  section#benefits{
+    background-color: rgba(212,150,120, .2);
+    position: relative;
+    height: 100vh;
+  }
+
+  div#benefits-container{
+    margin: 50px 0;
+  }
+
+  div#benefits-container > h2{
+    color:#04bfbf;
+    font-size:1.5rem;
+    text-align:center;
+    margin:10px 0;
+  }
+
+  div#benefits-intern{
+    padding: 10px 10px;
+  }
+
+  div#benefits-intern details{
+    margin: 10px 0;
+    width:80%;
+  }
+
+  div#benefits-intern p{
+    margin:10px 0;
+   text-align:justify;
+    padding:0 10px;
+  }
+
+
 
   footer{
     background-color: rgba(3,101,140, .2);
