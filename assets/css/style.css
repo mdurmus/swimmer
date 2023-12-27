@@ -132,22 +132,27 @@
     margin:.2em 0;
   }
 
+  section#about{
+    margin-top:50px;
+    padding:50px 0; 
+  }
+
   #about-container{
     display: flex;
     flex-direction: column;
+    padding: 50px 10px;
    
   }
 
-  #about-container h3{
+  #about h3{
     font-size: 3rem;
     color:#f23e2e;
-    padding:45px 45px;
     align-items: center;
   }
 
   .about-box > h4{
     color:#04bfbf;
-font-size:30px;
+    font-size:30px;
   }
 
   .about-box > p{
@@ -156,7 +161,7 @@ font-size:30px;
     line-height: 26px;
   }
 
-  /*Select sibling items*/
+  
   #about-container > div{
     margin:10px 10px;
     background-color: whitesmoke;
@@ -226,6 +231,17 @@ font-size:30px;
         font-size: 2rem;
 
       }
+      section#about{
+        margin-top:70px;
+        padding:50px 0; 
+      }
+      
+  #about-container{
+    display: flex;
+    flex-direction: row;
+    padding: 70px 10px;
+   
+  }
 
       footer > ul{
         display: flex;
