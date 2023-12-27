@@ -108,6 +108,7 @@
     margin-top:37px;
     display: flex;
     flex: 1 0 auto;
+    flex-direction: column;
   }
 
   section#hero{
@@ -129,6 +130,39 @@
 
   #hero-text > h2{
     margin:.2em 0;
+  }
+
+  #about-container{
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  #about-container h3{
+    font-size: 3rem;
+    color:#f23e2e;
+    padding:45px 45px;
+    align-items: center;
+  }
+
+  .about-box > h4{
+    color:#04bfbf;
+font-size:30px;
+  }
+
+  .about-box > p{
+    font-size:24px;
+    margin-top:10px;
+    line-height: 26px;
+  }
+
+  /*Select sibling items*/
+  #about-container > div{
+    margin:10px 10px;
+    background-color: whitesmoke;
+    padding:10px 10px;
+    border-radius: 10px;
+    
   }
 
   footer{
