@@ -157,20 +157,20 @@
     border-radius: 10px; 
   }
 
-  div#about-policy:hover,
-  div#about-policy:
-  {
+  div#about-policy:hover{
     background-color: rgba(242,62,46, .3);
-  }
+}
 
-  .about-box > h4,
-  #about-policy >h4{
+  
+#about-policy > h4,
+div.about-box > h4
+  {
     color:#04bfbf;
     font-size:30px;
   }
 
-  .about-box > p,
-  #about-policy > p{
+  .about-box>p,
+  #about-policy>p{
     font-size:24px;
     margin-top:10px;
     line-height: 26px;
@@ -209,6 +209,10 @@
     }
 
     #menu > li {padding-left:1rem;}
+
+    #menu a {
+        font-weight: 600;
+    }
 
     .nav-dropdown-label{display:none;}
 
