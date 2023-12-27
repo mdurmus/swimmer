@@ -150,24 +150,29 @@
     align-items: center;
   }
 
-  .about-box > h4{
+  #about-container > div,
+  div#about-policy{
+    margin:10px 10px;
+    background-color: whitesmoke;
+    padding:10px 10px;
+    border-radius: 10px; 
+  }
+
+  div#about-policy{
+    background-color: rgba(242,62,46, .3);
+  }
+
+  .about-box > h4,
+  #about-policy >h4{
     color:#04bfbf;
     font-size:30px;
   }
 
-  .about-box > p{
+  .about-box > p,
+  #about-policy > p{
     font-size:24px;
     margin-top:10px;
     line-height: 26px;
-  }
-
-  
-  #about-container > div{
-    margin:10px 10px;
-    background-color: whitesmoke;
-    padding:10px 10px;
-    border-radius: 10px;
-    
   }
 
   footer{
