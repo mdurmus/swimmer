@@ -261,6 +261,17 @@
         color: rgba(242,62,46, .5);
     }
 
+    div#hero-text{
+        position:absolute;
+        margin-left: 15px;
+        top:75%;
+        background-color: rgba(255,255,255, .6);
+        border-radius: 8px;
+        width:45%;
+        padding:10px 10px;
+      }
+
+
     main{
         margin-top:55px;
         display: flex;
