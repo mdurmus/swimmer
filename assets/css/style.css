@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Colors:
-  Main   Color: #0455BF / RGB: 4,85,191
-  Second Color: #03658C / RGB: 3,101,140
-  Third  Color: #0396A6 / RGB: 3,150,166
-  Fourth Color: #04BFBF / RGB: 4,191,191
-  Fifth  Color: #F23E2E / RGB: 242,62,46
+  Main   Color: #0455BF / RGB: 4,85,191  MAVI
+  Second Color: #03658C / RGB: 3,101,140 KOYU MAVI
+  Third  Color: #0396A6 / RGB: 3,150,166 KOYU YESIL
+  Fourth Color: #04BFBF / RGB: 4,191,191 ACIK YESIL
+  Background Color: rgba(3,101,140, .1); acik mavi
 */
 
 
@@ -30,6 +30,28 @@
     flex-direction: column;
   }
 
+    /* Headers   */
+    h1{
+        font-family:'Libre Franklin',sans-serif;   
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #0455BF;
+      }
+    
+      h2{
+        margin: 25px 0;
+        color:rgb(3,150,166);
+        text-align: center;
+        font-size: 2.5em;
+      }
+    
+      h3{
+        margin-bottom: 7px;
+        color: rgb(4,85,191);
+        font-size:1.3rem;
+      }
+
+
   /*Headerbar feature*/
   header{
     background-color: #fff;
@@ -43,54 +65,37 @@
     align-items: baseline;
   }
 
-
-  h1{
-    font-family:'Libre Franklin',sans-serif;   
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #0455BF;
-  }
-
-  h2{
-    margin: 25px 0;
-    color:rgb(3,150,166);
-    text-align: center;
-    font-size: 2.5em;
-  }
-
-  h3{
-    margin-bottom: 7px;
-    color: rgb(4,191,191);
-    font-size:1.3rem;
-  }
-
-  /*Logo default link feature disabled*/
+  /*Logo default link (a) feature disabled */
   header > a {
     text-decoration: none;
     color:inherit;
   }
 
-  /*Menu items setted*/
+  /*Menu items features edited*/
   #menu{
     list-style-type:none;
     letter-spacing: 2px;
   }
 
+  /*Menu items font feature*/
   #menu >li{
     margin-bottom: .7rem;
     font-size:1rem;
     font-weight:bold;
   }
 
+  /* TODO: Menu itemlarini düzeltmen lazim kimi havada kimi asagida*/
   #menu > li:nth-child(1){
     margin-top: .7rem;
   }
 
+  /* Menu link properties */
   #menu a{
     text-decoration: none;
     color:rgba(4,85,191, 1);
   }
 
+  /* Navigation Features */
   nav{
     position: absolute;
     background-color: #fff;
@@ -102,19 +107,23 @@
     top:100%;
   }
 
+  /* Menu show checkedbox */
   #nav-dropdown:checked~nav{
     display:block;
   }
 
+  /* Menu hidden */
   #nav-dropdown{
     display:none;
   }
 
+  /* Menu bar feature */
   .nav-dropdown-label{
     font-size: 2rem;
     color:#0455BF;
   }
 
+  /* Main document section */
   main{
     margin-top:37px;
     display: flex;
@@ -122,6 +131,7 @@
     flex-direction: column;
   }
 
+  /* Hero section */
   section#hero{
     width:100%;
     background: url('../images/heroo.webp') no-repeat center center / cover;
@@ -129,7 +139,7 @@
     position: relative;
   }
 
-  div#hero-text{
+  div#hero-background{
     position:absolute;
     margin-left: 15px;
     top:75%;
@@ -139,13 +149,17 @@
     padding:10px 10px;
   }
 
-  #hero-text > h2{
+  #hero-background > h2{
     margin:.2em 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align:left;
   }
 
-  section#about{
+  /* End of Hero section */
+
+
+/* About Section */
+  section#about{ 
     padding:50px 0;
     background-color: rgba(3,101,140, .1);
   }
@@ -154,7 +168,6 @@
     display: flex;
     flex-direction: column;
     padding: 50px 10px;
-   
   }
 
   #about-container > div,
@@ -165,74 +178,96 @@
     border-radius: 10px; 
   }
 
-  div#about-policy:hover{
-    background-color: rgba(242,62,46, .3);
-}
+  div#about-policy:hover{background-color: rgba(242,62,46, .3);}
 
     #about-policy > h4,
     div.about-box > h4
-    {
-    color:#04bfbf;
-    }
+    {color:#04bfbf;}
 
   .about-box>p,
   #about-policy>p{
-    /* font-size:24px; */
     margin-top:10px;
     line-height: 26px;
   }
 
+  span#markdo, 
+  span#markvision{
+    color: #F4DA00;
+    font-weight:bold;
+    text-decoration-line: underline;
+    background-color: #84b4f3;
+  }
+  /* End of About Section */
 
 
 
 
+/* Benefits section*/
   section#benefits{
     background-color: rgba(212,150,120, .1);
     position: relative;
+    padding-bottom:50px;
     /* height: 100vh; */
   }
 
-  div#benefits-container{
-    margin: 50px 0;
-    display:flex;
-    flex-direction: column;
-    align-items: center; 
+  #benefits-header{
+    padding-top:50px;
+    padding-bottom:25px;
   }
 
-/* 
-  div#benefits-intern{
-    padding: 10px 10px;
+  div#benefits-container{
+    display:flex;
+    flex-direction: column;
+    padding:5px 15px;
   }
 
   .benefits-detail{
     margin: 10px 0;
     padding:10px 0;
-    border:2px solid #f23e2e;
+    border:2px solid rgba(4,85,191);
     border-radius:5px;
   }
-
-
 
   .benefits-detail > summary{
     list-style-position: inside;
     margin-left: 10px;
-    padding: 10px 10px 10px 20px;
+    padding: 10px 15px;
     border-radius: 5px;
+    font-weight:600;
     cursor:pointer;
-  }
-
-  
-  .benefits-detail>summary::marker{
-        color: #0455BF;
-        font-size: 1.2em;
-        
+    color:rgb(3,150,166);
   }
 
   .benefits-detail>p{
     margin:10px 0;
     text-align:justify;
-    padding:0 10px;
-  } */
+    padding:0 20px;
+    font-weight:400;
+  } 
+
+  .benefits-detail>ul{padding-left:12px;}
+
+  .benefits-detail li{
+    list-style-type:none;
+    padding-left:15px;
+    font-weight:bold;
+    margin-bottom:5px;
+  } 
+
+  .benefits-detail>summary::marker{
+    color: #0455BF;
+    font-size: 1.2em;
+    
+}
+
+
+
+/* End of benefits */
+
+
+
+
+
 
   footer{
     background-color: rgba(3,101,140, .2);
@@ -289,18 +324,8 @@
         flex: 1 0 auto;
       }
 
-      div#hero-text{
-        width:85%;
-      }
-
-
-      div#hero-text > h1,
-      div#hero-text > h2{
-        font-size: 2rem;
-
-      }
-
-      section#about{
+ 
+    section#about{
         padding:65px 0; 
       }
       
@@ -329,16 +354,16 @@
         color: rgba(242,62,46, .5);
     }
 
-    div#hero-text{
-        position:absolute;
-        margin-left: 15px;
-        top:75%;
-        background-color: rgba(255,255,255, .6);
-        border-radius: 8px;
-        width:55%;
-        padding:10px 10px;
+    section#hero{
+        width:100%;
+        background: url('../images/heroo.webp') no-repeat center center / cover;
+        height: 650px;
+        position: relative;
       }
-
+    
+      div#hero-background{
+        width:55%;
+      }
 
     main{
         margin-top:55px;
