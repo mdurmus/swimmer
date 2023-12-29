@@ -127,12 +127,13 @@
     top:75%;
     background-color: rgba(255,255,255, .6);
     border-radius: 8px;
-    width:75%;
+    width:85%;
     padding:10px 10px;
   }
 
   #hero-text > h2{
     margin:.2em 0;
+
   }
 
   section#about{
@@ -342,7 +343,7 @@ div.about-box > h4
         top:75%;
         background-color: rgba(255,255,255, .6);
         border-radius: 8px;
-        width:45%;
+        width:55%;
         padding:10px 10px;
       }
 
