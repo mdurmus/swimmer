@@ -53,14 +53,14 @@
 
   h2{
     margin: 25px 0;
-    color:#f23e2e;
+    color:rgb(3,150,166);
     text-align: center;
     font-size: 2.5em;
   }
 
   h3{
     margin-bottom: 7px;
-    color: #0396a6;
+    color: rgb(4,191,191);
     font-size:1.3rem;
   }
 
@@ -73,13 +73,12 @@
   /*Menu items setted*/
   #menu{
     list-style-type:none;
-    letter-spacing: 3px;
-    font-size:110%;
+    letter-spacing: 2px;
   }
 
   #menu >li{
     margin-bottom: .7rem;
-    font-size:1.3rem;
+    font-size:1rem;
     font-weight:bold;
   }
 
@@ -89,7 +88,7 @@
 
   #menu a{
     text-decoration: none;
-    color:#F23E2E;
+    color:rgba(4,85,191, 1);
   }
 
   nav{
@@ -197,16 +196,10 @@
     margin: 50px 0;
     display:flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
   }
 
-  div#benefits-container > h2{
-    color:#04bfbf;
-    font-size:2rem;
-    text-align:center;
-    margin:10px 0;
-  }
-
+/* 
   div#benefits-intern{
     padding: 10px 10px;
   }
@@ -239,15 +232,7 @@
     margin:10px 0;
     text-align:justify;
     padding:0 10px;
-  }
-
-  .benefits-detail > iframe{
-    width:100%;
-    height:250px;
-
-  }
-
-
+  } */
 
   footer{
     background-color: rgba(3,101,140, .2);
