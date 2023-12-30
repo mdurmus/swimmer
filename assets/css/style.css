@@ -420,6 +420,10 @@ section#types{
    
   }
 
+div.type-content>h4{
+     padding-top:70px;
+ }
+
   /*Satirin ayarlanmasi*/
   .content{
     display:flex;
