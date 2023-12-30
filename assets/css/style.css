@@ -204,10 +204,8 @@
 
 /* Benefits section*/
   section#benefits{
-    background-color: rgba(212,150,120, .1);
     position: relative;
     padding-bottom:50px;
-    /* height: 100vh; */
   }
 
   #benefits-header{
@@ -259,10 +257,46 @@
     font-size: 1.2em;
     
 }
-
-
-
 /* End of benefits */
+
+/* Types Section */
+section#types{
+    position: relative;
+    padding-bottom:50px;
+    background-color: rgba(3,101,140, .1);
+  }
+
+  
+  #types-header{
+    padding-top:50px;
+    padding-bottom:25px;
+  }
+
+  div#swimming-types{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .swimming-type{
+    margin:15px 15px;
+    text-align: center;
+  }
+
+  .swimming-type>a:link{
+    text-decoration: none;
+    color:#0455BF;
+  }
+
+  .swimming-type img{
+    border-radius: 50%; 
+    width:160px; 
+    height:160px;
+  }
+
+
 
 
 
