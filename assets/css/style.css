@@ -291,11 +291,20 @@ section#types{
   }
 
   .swimming-type img{
-    border-radius: 50%; 
+    border-radius: 25%; 
     width:160px; 
     height:160px;
+    border: 2px solid #000;
   }
 
+  .types-content{
+    display:flex;
+    flex-direction: column;
+  }
+
+  #freestyle{
+    height:100vh;
+  }
 
 
 
