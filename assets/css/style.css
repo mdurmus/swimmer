@@ -364,17 +364,6 @@ section#types{
         width: 100%;
         object-fit: cover;
     }
-/* 
-    div#form-container{
-         width:80%; 
-        max-width:350px;
-        height:400px;
-        background-color: rgba(0,0,0, .9);
-        position: absolute;
-        top:30%;
-        left:10%;
-        border-radius:5px;
-    } */
 
     
     div#form-container{
@@ -389,12 +378,12 @@ section#types{
 
 
    /*Orjinalinden form kopyasi*/
-   #contact-form {
+   div#contact-form {
     background-color: rgba(255,255,255, .8);
     padding: 5px;
     text-align: center;
     max-width:90%;
-    /* max-width:270px; */
+    
 }
 
 label{
@@ -415,7 +404,7 @@ legend{
     font-weight:bold;
 }
 
-.text-input {
+.text-input-field {
     width: 90%;
     border: 1px solid #000  ;
     padding: 3px;
@@ -437,16 +426,17 @@ select{
     height: 25px;
 }
 
-.contribute-button {
-    padding: 5px 20px;
+.submit-button {
+    padding: 5px 5px;
     background-color: white;
     font-size: 100%;
     text-align: center;
     border-radius: 4px;
-    color: #4b5054;
+    color: rgba(4,85,191, 1);
     border: none;
     display: block;
-    margin: 0 auto;
+    margin: 5px auto;
+    width:80%;
 }
 
 .contribute-button:hover {
@@ -454,32 +444,25 @@ select{
     cursor: pointer;
 }
 
-
- 
-
-
- 
-
-
-
-
-
-
+/*Footer Section*/
   footer{
-    background-color: rgba(3,101,140, .2);
-    border-top: 1px solid black;
+    text-align: center;
   }
 
-  footer > ul{
-    display: flex;
-    justify-content: space-around;
-    font-size: 2rem;
-    padding: 5px 10px;
-  }
+    footer > ul{
+        display: flex;
+        justify-content: space-evenly;
+        margin:20px 0px;
+        
+    }
 
   #social{
     list-style-type: none;
   }
+  #social i{
+    font-size: 20px;
+    color:rgba(4,85,191, 1);
+}
 
 
   /*Tablet screeens*/
@@ -545,12 +528,25 @@ div.type-content>h4{
     background-color: #fff;
   }
 
-      footer > ul{
-        display: flex;
-        justify-content: space-around;
-        font-size: 3rem;
-        padding: 5px 10px;
-      }
+    
+
+      div#contact-form {
+        max-width:70%;
+        
+    }
+
+    /* Footer Section */
+
+    footer > ul{
+        justify-content: space-evenly;
+   
+        
+    }
+
+    #social i{
+        font-size: 30px;
+        color:rgba(4,85,191, 1);
+    }
   }
 
   /*Desktop Screens*/
@@ -579,4 +575,5 @@ div.type-content>h4{
         display: flex;
         flex: 1 0 auto;
       }
+
   }
