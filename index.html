@@ -325,14 +325,22 @@
 
                            <fieldset>
                             <legend>Swimming style of interest</legend>
-                            <input type="radio" name="stype" value="freestyle">
-                            <label name="stype">Freestyle</label><br>
-                            <input type="radio" name="stype" value="butterfly">
-                            <label name="stype">Butterfly</label><
-                            <input type="radio" name="stype" value="breaststroke">
-                            <label name="stype">Breaststroke</label>
-                            <input type="radio" name="stype" value="backstroke">
-                            <label name="stype">Backstroke</label>
+                            <label for="swimmingtype">Swimming Style</label><br>
+                            <select name="swimmingtype" id="swimmingtype">
+                                <option value="freestyle">Freestyle</option>
+                                <option value="butterfly">Butterfly</option>
+                                <option value="breaststroke">Breaststroke</option>
+                                <option value="backstroke">Backstroke</option>
+                            </select><br>
+                            <label for="purposetype">Your Swimming Purpose</label>
+                            <select name="purposetype" id="purposetype">
+                                <option value="physical">Physical Health</option>
+                                <option value="injury">Injury and Joint-Friendly</option>
+                                <option value="Hobby">Hobby</option>
+                                <option value="competitions">Competitions</option>
+                                <option value="others">Others</option>
+                            </select>
+
                            </fieldset>
                            
                             <label for="suggestion">Your Message</label><br>
