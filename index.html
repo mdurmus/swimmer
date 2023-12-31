@@ -307,33 +307,50 @@
                          type="video/mp4">
                      </video>
                 </div>
-             <div id="contact-outer">
-                    <div id="contact-flex-container">
-                        <div id="contact-details-container">
-                            <form method="post" action="https://formdump.codeinstitute.net/" target="_blank">
-                                <h3>Dive into the deep blue sea with us.</h3>
-                                <label for="fullname">Full Name</label>
-                                <input type="text" name="full_name" placeholder="Full Name" id="fullname" class="text-input" required>
-                                <label for="email">Email</label>
-                                <input type="email" name="email" placeholder="Email" id="email" class="text-input" required>
-                                <label for="suggestion">Submit Suggestion</label>
-                                <textarea name="suggestion" placeholder="Please insert your suggested yoga content here" id="suggestion" required></textarea>
-                                <p>
-                                    <input type="checkbox" name="checkbox" id="checkbox">
-                                    <label for="checkbox">I would like to receive the MindYoga email newsletter</label>
-                                </p>
-                                <input type="submit" value="Submit" class="contribute-button">
-                            </form>
-                        </div>
-                        <div id="contact-form-container">
-                            <address>
-                                <p>Anadolu sokakdsdsd</p>
-                                <p>tel:weedcsdcsdc</p>
-                            </address>
-                        </div>
+                <div id="form-container">
+                    <div id="contact-form">
+                       <div style="width:100%;margin:5px;">
+                         <form method="post" action="https://formdump.codeinstitute.net/" target="_blank">
+                           <fieldset>
+                            <legend>Contact Information</legend>
+                            <label for="fullname">Full Name</label><br>
+                            <input type="text" name="full_name" placeholder="Your full name" id="fullname" class="text-input" required=""><br>
+                           
+                            <label for="tel">Your Phone</label><br>
+                            <input type="number" name="tel" placeholder="Your contact phone" id="tel" class="text-input"><br>
+                            
+                            <label for="email">Email</label><br>
+                            <input type="email" name="email" placeholder="Your e-mail" id="email" class="text-input" required=""><br>
+                           </fieldset>
+
+                           <fieldset>
+                            <legend>Swimming style of interest</legend>
+                            <input type="radio" name="stype" value="freestyle">
+                            <label name="stype">Freestyle</label><br>
+                            <input type="radio" name="stype" value="butterfly">
+                            <label name="stype">Butterfly</label><
+                            <input type="radio" name="stype" value="breaststroke">
+                            <label name="stype">Breaststroke</label>
+                            <input type="radio" name="stype" value="backstroke">
+                            <label name="stype">Backstroke</label>
+                           </fieldset>
+                           
+                            <label for="suggestion">Your Message</label><br>
+                            <textarea name="suggestion" placeholder="Please write your message here." id="suggestion" required=""></textarea><br>
+                            <hr>
+                            
+
+
+
+                            <input type="submit" value="Submit" class="contribute-button">
+                        </form>
+                       </div>
+                       
+                       <!-- <div style="width:100%;background-color:whitesmoke;margin:5px;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2384.516185191668!2d-6.18122552375645!3d53.298201278325344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e99733f3617%3A0x7ff7202fe3dea603!2sCode%20Institute!5e0!3m2!1str!2sde!4v1704014645705!5m2!1str!2sde" width="80%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                       </div> -->
                     </div>
-                
-            </div> 
+                </div>
         </section>
 
     </main>
