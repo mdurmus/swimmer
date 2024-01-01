@@ -124,6 +124,9 @@
   .nav-dropdown-label{
     font-size: 2rem;
     color:#0455BF;
+    /* I fixed position, because Page insight CLS issue  */
+    position:absolute;
+    right:10px;
   }
 
  /* #endregion */
