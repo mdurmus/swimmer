@@ -342,8 +342,14 @@ section#types{
     border-radius:5px;
     border: 1px solid #000;
     box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2), 2px 2px 2px 2px rgba(0, 0, 0, 0.19);
-    width:800px;
-    height:600px;
+    width: 100%; 
+    margin-bottom: 10px;
+  }
+
+  .backTypes{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgba(4,85,191, 1);
   }
 
   .content-text>p{
