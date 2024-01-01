@@ -142,7 +142,7 @@
   /* #region Hero section */
   section#hero{
     width:100%;
-    background: url('../images/hero.webp') no-repeat center center / cover;
+    background: url('../images/audi_Hero.jpg') no-repeat center center / cover;
     height: 650px;
     position: relative;
   }
@@ -151,7 +151,7 @@
     position:absolute;
     margin-left: 15px;
     top:75%;
-    background-color: rgba(255,255,255, .6);
+    background-color: rgba(255,255,255, .8);
     border-radius: 8px;
     width:85%;
     padding:10px 10px;
@@ -160,6 +160,7 @@
   #hero-background > h2{
     margin:.2em 0;
     font-size: 1.2rem;
+    text-transform : uppercase;
     text-align:left;
     color:rgba(0, 0, 0, 0.7);
   }
@@ -499,6 +500,12 @@ select{
 
   /*Tablet screeens*/
   @media screen and (min-width:768px) {
+
+    section#hero{
+      
+        background: url('../images/hero.webp') no-repeat center center / cover;
+        
+      }
 
     nav{
         display: block;
