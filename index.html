@@ -18,7 +18,7 @@
 <body>
 
     <!--Header Area-->
-    <header>
+    <header aria-label="Header area with menu">
         <a href="index.html" aria-label="Swimmer home page">
             <h1 id="logo">Swimmers</h1>
         </a>
@@ -41,7 +41,7 @@
     <main>
 
         <!--Hero Section-->
-        <section id="hero">
+        <section id="hero" aria-label="Hero section">
             <div id="hero-text-background">
                 <h2>Dive into the water, discover the secrets of freedom and tranquility!</h2>
             </div>
@@ -49,7 +49,7 @@
         <!--End of Hero Section-->
 
         <!--About Section-->
-        <section id="about">
+        <section id="about" aria-label="About us">
             <div id="about-header">
                 <h2>About Swimmers Club</h2>
             </div>
@@ -104,9 +104,10 @@
             </p>
         </div>
         </section>
+         <!--End of About Section-->
 
         <!--Benefits Section-->
-        <section id="benefits">
+        <section id="benefits" aria-label="Benefits">
             <div id="benefits-header">
                 <h2>The Benefits of Swimming</h2>
             </div>
@@ -172,9 +173,10 @@
                 </div>
             
         </section>
+         <!--End of Benefits Section-->
 
         <!--Swimming Types-->
-        <section id="types">
+        <section id="types" aria-label="Swimming types">
             <div id="types-header">
                 <h2>Swimming Types</h2>
             </div>
@@ -301,10 +303,11 @@
                 </div>
             </div>
         </section>
+         <!--End of Swimming Section-->
         
 
         <!--Contact Section-->
-        <section id="contact">
+        <section id="contact" aria-label="Contact us">
                 <h2>Contact Us</h2>
                 <div id="video-container">
                     <video  autoplay muted loop>
@@ -314,24 +317,24 @@
                 </div>
                 <div id="form-container">
                     <div id="contact-form">
-                       <div style="width:100%;margin:5px;">
-                         <form method="post" action="https://formdump.codeinstitute.net/" target="_blank">
-                           <fieldset>
+                        <form method="post" action="https://formdump.codeinstitute.net/" target="_blank">
+                           
+                            <fieldset>
                             <legend> Contact Information </legend>
                             <label for="fullname">Full Name</label><br>
-                            <input type="text" name="full_name" placeholder="Your full name" id="fullname" class="text-input" required=""><br>
+                            <input type="text" name="full_name" placeholder="Your full name" id="fullname" class="text-input" required aria-label="Your name"><br>
                            
                             <label for="tel">Your Phone</label><br>
-                            <input type="tel" name="tel" placeholder="+1 234 567" id="tel" class="text-input"><br>
+                            <input type="tel" name="tel" placeholder="+1 234 567" id="tel" class="text-input" aria-label="Your Phone Number"><br>
                             
                             <label for="email">Email</label><br>
-                            <input type="email" name="email" placeholder="Your e-mail" id="email" class="text-input" required=""><br>
+                            <input type="email" name="email" placeholder="Your e-mail" id="email" class="text-input" required aria-label="Your Email"><br>
                            </fieldset>
 
                            <fieldset>
                             <legend> Swimming style of interest </legend>
                             <label for="swimmingtype">Swimming Style</label><br>
-                            <select name="swimmingtype" id="swimmingtype">
+                            <select name="swimmingtype" id="swimmingtype" aria-label="Select swimming type">
                                 <option value="Select">Please select...</option>
                                 <option value="freestyle">Freestyle</option>
                                 <option value="butterfly">Butterfly</option>
@@ -339,7 +342,7 @@
                                 <option value="backstroke">Backstroke</option>
                             </select>
                             <label for="purposetype">Your Swimming Purpose</label>
-                            <select name="purposetype" id="purposetype">
+                            <select name="purposetype" id="purposetype" aria-label="Select swimming purpose">
                                 <option value="Select">Please select...</option>
                                 <option value="physical">Physical Health</option>
                                 <option value="injury">Injury and Joint-Friendly</option>
@@ -354,11 +357,10 @@
                             
                             <input type="submit" value="Submit" class="submit-button">
                         </form>
-                       </div>
                     </div>
                 </div>
         </section>
-
+         <!--End of Contact Section-->
     </main>
 
     <!--Footer Area-->

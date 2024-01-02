@@ -9,7 +9,7 @@
 */
 
 
-   /*#region Reset CSS */
+    /* #region Reset CSS */
     *{
         margin: 0;
         padding: 0;
@@ -32,7 +32,7 @@
       }
       /* #endregion */
 
-    /*#region Headers */
+    /* #region Headers */
     h1{
         font-family:'Libre Franklin',sans-serif;   
         text-transform: uppercase;
@@ -352,123 +352,114 @@
 
 /* Contact Section */
     section#contact{
-    width: 100%;
-    position:relative;
+        width: 100%;
+        position:relative;
     }
-
     div#video-container{
         width: 100%;
         top:0px;
         left:0px;
     }
-
     video {
         height: 600px;
         width: 100%;
         object-fit: cover;
     }
-
-    
     div#form-container{
         position: absolute;
-        top:30%;
+        top:35%;
         bottom:20%;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
    }
-
-
-   /*Orjinalinden form kopyasi*/
    div#contact-form {
-    background-color: rgba(255,255,255, .8);
-    padding: 5px;
-    text-align: center;
-    max-width:90%;
+        background-color: rgba(255,255,255, .8);
+        padding: 5px;
+        text-align: center;
+        max-width:100%;
+        margin:5px;
     
-}
+    }
+    label{
+        float:left;
+        padding-left: 10px;
+        color:rgba(4,85,191, 1);
+        font-weight:bold;
+        margin-bottom: 3px;
+    }
+    fieldset{
+        width:95%;
+        align-self: center;
+        margin-bottom: 10px;
+        padding:5px;
+    }
+    legend{
+        font-weight:bold;
+        color:rgb(3,150,166);
+    }
+    .text-input {
+        width: 90%;
+        border: 1px solid #000;
+        padding: 3px;
+        margin: 3px 0 10px 0;
+        height: 25px;
+        color:rgb(3,150,166);
+    }
+    /* For input text placeholder color */
+    ::placeholder{
+        color:rgb(3,150,166);
+    }
 
-label{
-    float:left;
-    padding-left: 10px;
-    color:rgba(4,85,191, 1);
-    font-weight:bold;
-    margin-bottom: 3px;
-}
+    textarea {
+        border: 1px solid white;
+        padding: 10px;
+        margin-top: 5px;
+        width: 90%;
+        height: 90px;
+        color:rgb(3,150,166);
+    }
+    select{
+        width:90%;
+        border:1px solid #000;
+        margin: 5px;
+        height: 25px;
+        color:rgb(3,150,166);
+    }
+    .submit-button {
+        padding: 5px 5px;
+        background-color: #fff !important;
+        font-size: 1.1rem;
+        border-radius: 5px;
+        color: rgb(4,85,191);
+        border: 1px solid rgb(4,85,191);
+        display: block;
+        margin: 5px auto;
+        width:80%;
+    }
+    .contribute-button:hover {
+        background-color: #ccd0cf;
+        cursor: pointer;
+    }
 
-fieldset{
-    width:95%;
-    align-self: center;
-    margin-bottom: 10px;
-    padding:5px;
-}
-
-legend{
-    font-weight:bold;
-}
-
-.text-input {
-    width: 90%;
-    border: 1px solid #000  ;
-    padding: 3px;
-    margin: 3px 0 20px 0;
-    height: 25px;
-}
-
-textarea {
-    border: 1px solid white;
-    padding: 10px;
-    margin: 5px 0 0 0;
-    width: 90%;
-    height: 90px;
-}
-
-select{
-    width:90%;
-    border:1px solid #000;
-    margin: 5px;
-    height: 25px;
-}
-
-.submit-button {
-    padding: 5px 5px;
-    background-color: white;
-    font-size: 100%;
+/* #region Footer Section*/
+    footer{
     text-align: center;
-    border-radius: 4px;
-    color: rgba(4,85,191, 1);
-    border: none;
-    display: block;
-    margin: 5px auto;
-    width:80%;
-}
-
-.contribute-button:hover {
-    background-color: #e1eae7;
-    cursor: pointer;
-}
-
-/*Footer Section*/
-  footer{
-    text-align: center;
-  }
-
+    }
     footer > ul{
         display: flex;
         justify-content: space-evenly;
-        margin:20px 0px;
-        
+        margin:20px 0px;   
     }
-
-  #social{
-    list-style-type: none;
-  }
-  #social i{
-    font-size: 20px;
-    color:rgba(4,85,191, 1);
-}
-
+    #social{
+        list-style-type: none;
+    }
+    #social i{
+        font-size: 1rem;
+        color:rgb(4,85,191);
+    }
+/* #endregion */
 
 
   /*Tablet screeens*/
