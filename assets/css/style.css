@@ -383,6 +383,9 @@
         margin:5px;
     
     }
+    form{
+        padding:10px;
+    }
     label{
         float:left;
         padding-left: 10px;
@@ -395,6 +398,7 @@
         align-self: center;
         margin-bottom: 10px;
         padding:5px;
+        margin-left:2%;
     }
     legend{
         font-weight:bold;
@@ -544,12 +548,14 @@
     div#hero-background{
         width:55%;
     }
+    div#hero-text-background{
+        width:55%;
+    }
     div.content-image{
         text-align: center;
     }
     div.content-image > img {
         width:1000px;
-        padding: auto auto;
     }
     div.content-image a {
         display: block;
@@ -560,5 +566,6 @@
     div.content-text{
         padding:0px 50px;
     }
-  }
+   
   /* #endregion */
+  }

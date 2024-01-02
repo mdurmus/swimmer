@@ -11,6 +11,7 @@
     <title>Swimmers web site</title>
     <!--Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon-16x16.png">
     <!--CSS File-->
     <link rel="stylesheet" href="assets/css/style.css">
    
@@ -22,10 +23,9 @@
         <a href="index.html" aria-label="Swimmer home page">
             <h1 id="logo">Swimmers</h1>
         </a>
-        
+            <!--Burger Menu For Mobile Devices-->
             <input type="checkbox" name="nav-dropdown" id="nav-dropdown">
-            <label for="nav-dropdown" class="nav-dropdown-label"><i class="fa-solid fa-bars"></i></label>
-        
+            <label for="nav-dropdown" class="nav-dropdown-label"><i class="fa-solid fa-bars" aria-label="menu"></i></label> 
         <nav>
         <ul id="menu">
             <li><a href="#top" aria-label="Home Section" title="Home">Home</a></li>
@@ -39,7 +39,6 @@
 
     <!--Main Content Area-->
     <main>
-
         <!--Hero Section-->
         <section id="hero" aria-label="Hero section">
             <div id="hero-text-background">
@@ -304,13 +303,12 @@
             </div>
         </section>
          <!--End of Swimming Section-->
-        
 
         <!--Contact Section-->
         <section id="contact" aria-label="Contact us">
                 <h2>Contact Us</h2>
                 <div id="video-container">
-                    <video  autoplay muted loop>
+                    <video  autoplay muted loop aria-label="There is a video of people jumping into the sea">
                         <source src="assets/images/contact_video.mp4"
                          type="video/mp4">
                      </video>
@@ -355,7 +353,7 @@
                             <label for="suggestion">Your Message</label><br>
                             <textarea name="suggestion" placeholder="Please write your message here." id="suggestion"></textarea><br>
                             
-                            <input type="submit" value="Submit" class="submit-button">
+                            <input type="submit" value="Submit" aria-label="send email" class="submit-button">
                         </form>
                     </div>
                 </div>
