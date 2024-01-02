@@ -21,8 +21,6 @@
     }
     /*#endregion*/
 
-
-
     /* #region body specs*/  
     body{
         min-height: 100vh;
@@ -34,8 +32,7 @@
       }
       /* #endregion */
 
-
-   /*#region Headers */
+    /*#region Headers */
     h1{
         font-family:'Libre Franklin',sans-serif;   
         text-transform: uppercase;
@@ -63,7 +60,7 @@
     background-color: #fff;
     padding: 0 1rem; 
     position:fixed;
-    z-index:9999;
+    z-index:999;
     width:100%;
     box-shadow: 0 2px 2px #0455BF;
     display:flex;
@@ -78,313 +75,280 @@
   }
   /* #endregion */
 
+    /* #region Menu and items*/
+    #menu{
+        list-style-type:none;
+        letter-spacing: 4px;
+    }
 
-  /* #region Menu and items*/
-  #menu{
-    list-style-type:none;
-    letter-spacing: 4px;
-  }
+    /*Menu items font feature*/
+    #menu>li{
+        margin-bottom: .7rem;
+        font-size:1rem;
+        font-weight:600;
+    }
 
-  /*Menu items font feature*/
-  #menu>li{
-    margin-bottom: .7rem;
-    font-size:1rem;
-    font-weight:600;
-  }
+    /* Menu link properties */
+    #menu a{
+        text-decoration: none;
+        color:rgba(4,85,191, 1);
+    }
 
-  /* Menu link properties */
-  #menu a{
-    text-decoration: none;
-    color:rgba(4,85,191, 1);
-  }
+    /* Navigation Features */
+    nav{
+        position: absolute;
+        background-color: #fff;
+        width:100%;
+        left:0;
+        padding: 0 1rem;
+        box-shadow: 0 2px 2px #0455BF;
+        display: none;
+        top:100%;
+    }
 
-  /* Navigation Features */
-  nav{
-    position: absolute;
-    background-color: #fff;
-    width:100%;
-    left:0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #0455BF;
-    display: none;
-    top:100%;
-  }
+    /* Menu show checkedbox */
+    #nav-dropdown:checked~nav{
+        display:block;
+    }
 
-  /* Menu show checkedbox */
-  #nav-dropdown:checked~nav{
-    display:block;
-  }
+    /* Menu hidden */
+    #nav-dropdown{
+        display:none;
+    }
 
-  /* Menu hidden */
-  #nav-dropdown{
-    display:none;
-  }
+    /* Menu bar feature */
+    .nav-dropdown-label{
+        font-size: 2rem;
+        color:#0455BF;
+        /* I fixed position, because Page insight CLS issue  */
+        position:absolute;
+        right:10px;
+    }
 
-  /* Menu bar feature */
-  .nav-dropdown-label{
-    font-size: 2rem;
-    color:#0455BF;
-    /* I fixed position, because Page insight CLS issue  */
-    position:absolute;
-    right:10px;
-  }
+    /* #endregion */
 
- /* #endregion */
+    /* #region Main document section */
+    main{
+        margin-top:37px;
+        display: flex;
+        flex: 1 0 auto;
+        flex-direction: column;
+    }
+    /* #endregion */
 
-  /* Main document section */
-  main{
-    margin-top:37px;
-    display: flex;
-    flex: 1 0 auto;
-    flex-direction: column;
-  }
+    /* #region Hero section */
+    section#hero{
+        width:100%;
+        background: url('../images/hero_mini.webp') no-repeat center center / cover;
+        height: 650px;
+        position: relative;
+    }
 
-  /* #region Hero section */
-  section#hero{
-    width:100%;
-    background: url('../images/hero_mini.webp') no-repeat center center / cover;
-    height: 650px;
-    position: relative;
-  }
+    div#hero-text-background{
+        position:absolute;
+        margin-left: 15px;
+        top:75%;
+        background-color: #fff;
+        border-radius: 8px;
+        width:85%;
+        padding:10px 10px;
+    }
 
-  div#hero-background{
-    position:absolute;
-    margin-left: 15px;
-    top:75%;
-    background-color: #fff;
-    border-radius: 8px;
-    width:85%;
-    padding:10px 10px;
-  }
+    #hero-text-background > h2{
+        margin:.2em 0;
+        font-size: 1.2rem;
+        text-transform : uppercase;
+        text-align:left;
+        color:rgba(0, 0, 0, 0.7);
+    }
+    /* #endregion */
 
-  #hero-background > h2{
-    margin:.2em 0;
-    font-size: 1.2rem;
-    text-transform : uppercase;
-    text-align:left;
-    color:rgba(0, 0, 0, 0.7);
-  }
-  /* #endregion */
+    /* #region About Section */
+    section#about{ 
+        padding:50px 0;
+        background-color: rgba(3,101,140, .1);
+    }
 
+    #about-container{
+        display: flex;
+        /* For mobile device */
+        flex-direction: column;
+        padding: 50px 10px;
+    }
 
-/* About Section */
-  section#about{ 
-    padding:50px 0;
-    background-color: rgba(3,101,140, .1);
-  }
+    #about-container > div,
+    div#about-policy{
+        margin:10px 10px;
+        background-color: rgba(3,101,140, .2);
+        padding:10px 10px;
+        border-radius: 10px; 
+    }
 
-  #about-container{
-    display: flex;
-    flex-direction: column;
-    padding: 50px 10px;
-  }
+    /* I used a hover effect to attract attention */
+    div#about-policy:hover{
+        background-color: rgba(242,62,46, .3);
+    }
 
-  #about-container > div,
-  div#about-policy{
-    margin:10px 10px;
-    background-color: rgba(3,101,140, .2);
-    padding:10px 10px;
-    border-radius: 10px; 
-  }
+    .about-box>p,
+    #about-policy>p{
+        margin-top:10px;
+        line-height: 26px;
+    }
 
-  div#about-policy:hover{background-color: rgba(242,62,46, .3);}
+    .mark{
+        color: #000;
+        font-weight:bold;
+        background-color: #84b4f3;
+    }
+  /* #endregion*/
 
-    #about-policy > h4,
-    div.about-box > h4
-    {color:#04bfbf;}
+    /* #region Benefits section*/
+    section#benefits{
+        position: relative;
+        padding-bottom:50px;
+    }
+    #benefits-header{
+        padding-top:50px;
+        padding-bottom:25px;
+    }
+    div#benefits-container{
+        display:flex;
+        /* For mobile devices */
+        flex-direction: column;
+        padding:5px 15px;
+    }
+    /* I want to show Benefits like accordion tabs */
+    .benefits-detail{
+        margin: 10px 0;
+        padding:10px 0;
+        border:2px solid rgba(4,85,191);
+        border-radius:5px;
+    }
+    .benefits-detail > summary{
+        list-style-position: inside;
+        list-style-type: armenian;
+        margin-left: 10px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-weight:800;
+        font-size:1.2rem;
+        cursor:pointer;
+        color:#01616c;
+    }
+    .benefits-detail>p{
+        margin:10px 0;
+        text-align:justify;
+        padding:0 20px;
+        font-weight:500;
+    } 
+    .benefits-detail>ul{
+        padding-left:12px;
+    }
+    .benefits-detail li{
+        list-style-type:disc;
+        padding-left:15px;
+        font-weight:bold;
+        margin-bottom:5px;
+    } 
+    .benefits-detail>summary::marker{
+        color: #0455BF;
+    } 
+/* #endregion */
 
-  .about-box>p,
-  #about-policy>p{
-    margin-top:10px;
-    line-height: 26px;
-  }
-
-  .mark{
-    color: #000;
-    font-weight:bold;
-    background-color: #84b4f3;
-  }
-  /* End of About Section */
-
-
-
-
-/* Benefits section*/
-  section#benefits{
-    position: relative;
-    padding-bottom:50px;
-  }
-
-  #benefits-header{
-    padding-top:50px;
-    padding-bottom:25px;
-  }
-
-  div#benefits-container{
-    display:flex;
-    flex-direction: column;
-    padding:5px 15px;
-  }
-
-  .benefits-detail{
-    margin: 10px 0;
-    padding:10px 0;
-    border:2px solid rgba(4,85,191);
-    border-radius:5px;
-  }
-
-  .benefits-detail > summary{
-    list-style-position: inside;
-    margin-left: 10px;
-    padding: 10px 15px;
-    border-radius: 5px;
-    font-weight:600;
-    cursor:pointer;
-    color:rgb(3,150,166);
-  }
-
-  .benefits-detail>p{
-    margin:10px 0;
-    text-align:justify;
-    padding:0 20px;
-    font-weight:400;
-  } 
-
-  .benefits-detail>ul{padding-left:12px;}
-
-  .benefits-detail li{
-    list-style-type:none;
-    padding-left:15px;
-    font-weight:bold;
-    margin-bottom:5px;
-  } 
-
-  .benefits-detail>summary::marker{
-    color: #0455BF;
-    font-size: 1.2em;
-    
-}
-/* End of benefits */
-
-/* Types Section */
-section#types{
-    position: relative;
-    padding-bottom:50px;
-    background-color: rgba(3,101,140, .1);
-  }
-
-  
-  #types-header{
-    padding-top:50px;
-    padding-bottom:25px;
-  }
-
-  div#swimming-types{
-    display: flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  .swimming-type{
-    margin:15px 15px;
-    text-align: center;
-  }
-
-  .swimming-type>a:link{
-    text-decoration: none;
-    color:#0455BF;
-  }
-
-  .swimming-type img{
-    border-radius: 5%; 
-    width:250px; 
-    height:167px;
-    border: 2px solid #000;
-  }
-
-  .type-content{
-    position:relative;
-    /* This is belt effect
-    margin:15px 0px; */
-  }
-
-  div.space{
-    background-color: rgba(3,101,140, .1);
-    width:100%;height:50px;
-  }
-
-  .type-content>h4{
-    padding-top: 40px;
-    font-weight:bold;
-    color:rgba(4,85,191, 1);
-    font-size:2rem;
-    text-align:center;
-    background-color: #fff;
-  }
-  .content{
-    display:flex;
-    flex-direction: column;
-    padding:10px 10px;
-    background-color: #fff;
-  }
-  .content-image{
-    padding: 10px;
-    width:100%;
-  }
-
-  .content-image>img{
-    height:450px;
-  }
-
-
-
-  .content-text{
-    padding: 10px;
-    width:100%;
-  }
-
-  /* 3,150,166 KOYU YESIL
-     4,191,191 Acık yesil */
-
-
-  .content-text>strong{
-    color:rgb(3, 150, 166);
-    font-size: 22px; 
-    font-weight: 700;
-  }
-
-  .content-text>h4{
-    color:rgb(4, 191, 191);
-    font-size: 20px; 
-    font-weight: 500;
-    margin-top: 10px;
-  }
-
-  .content-text>hr{
-    margin: 10px;
-    border:2px dotted black;
-    width:90%;
-  }
-  .content-image>img{
-    border-radius:5px;
-    border: 1px solid #000;
-    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2), 2px 2px 2px 2px rgba(0, 0, 0, 0.19);
-    width: 100%; 
-    margin-bottom: 10px;
-  }
-
-  .backTypes{
-    text-decoration: none;
-    font-weight: bold;
-    color:rgba(4,85,191, 1);
-  }
-
-  .content-text>p{
-    padding: 10px 10px;
-    
-  }
+    /* #region Types Section */
+    section#types{
+        position: relative;
+        padding-bottom:50px;
+        background-color: rgba(3,101,140, .1);
+    }
+    #types-header{
+        padding-top:50px;
+        padding-bottom:25px;
+    }
+    div#swimming-types{
+        display: flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .swimming-type{
+        margin:15px 15px;
+        text-align: center;
+    }
+    .swimming-type>a:link{
+        text-decoration: none;
+        color:#0455BF;
+    }
+    .swimming-type img{
+        border-radius: 5%; 
+        width:250px; 
+        height:167px;
+        border: 2px solid #000;
+    }
+    .type-content{
+        position:relative;
+        /* This is belt effect
+        margin:15px 0px; */
+    }
+    div.space{
+        background-color: rgba(3,101,140, .1);
+        width:100%;height:50px;
+    }
+    .type-content>h4{
+        padding-top: 40px;
+        font-weight:bold;
+        color:rgba(4,85,191, 1);
+        font-size:2rem;
+        text-align:center;
+        background-color: #fff;
+    }
+    .content{
+        display:flex;
+        /* For mobile view */
+        flex-direction: column;
+        padding:10px 10px;
+        background-color: #fff;
+    }
+    .content-image{
+        padding: 10px;
+        width:100%;
+    }
+    .content-image>img{
+     /* For resulotion width */
+        height:450px;
+    }
+    .content-text{
+        padding: 10px;
+    }
+    .content-text>strong{
+        color:rgb(3, 150, 166);
+        font-size: 1.4rem; 
+        font-weight: 700;
+    }
+    .content-text>h4{
+        color:rgb(4, 191, 191);
+        font-size: 20px; 
+        font-weight: 500;
+        margin-top: 10px;
+    }
+    .content-image>img{
+        border-radius:5px;
+        border: 1px solid #000;
+        box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2), 2px 2px 2px 2px rgba(0, 0, 0, 0.19);
+        width: 100%; 
+        margin-bottom: 10px;
+    }
+    /* For anchor links to swimming types. */
+    .backTypes{
+        text-decoration: none;
+        font-weight: bold;
+        color:rgba(4,85,191, 1);
+    }
+    .content-text>p{
+        padding: 10px 10px;
+    }
+    /* #endregion */
 
 /* Contact Section */
     section#contact{
