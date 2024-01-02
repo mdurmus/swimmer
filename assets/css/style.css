@@ -544,5 +544,21 @@
     div#hero-background{
         width:55%;
     }
+    div.content-image{
+        text-align: center;
+    }
+    div.content-image > img {
+        width:1000px;
+        padding: auto auto;
+    }
+    div.content-image a {
+        display: block;
+    }
+    .backTypes{
+        font-size: 1.2rem;
+    }
+    div.content-text{
+        padding:0px 50px;
+    }
   }
   /* #endregion */
