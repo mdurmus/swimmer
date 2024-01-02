@@ -8,6 +8,7 @@
   Background Color: rgba(3,101,140, .1); acik mavi
 */
 
+  /* #region Mobile - Galaxy Fold */
 
     /* #region Reset CSS */
     *{
@@ -316,7 +317,7 @@
     }
     .content-image>img{
      /* For resulotion width */
-        height:450px;
+        height:250px;
     }
     .content-text{
         padding: 10px;
@@ -350,7 +351,7 @@
     }
     /* #endregion */
 
-/* Contact Section */
+    /* #region Contact Section */
     section#contact{
         width: 100%;
         position:relative;
@@ -411,7 +412,6 @@
     ::placeholder{
         color:rgb(3,150,166);
     }
-
     textarea {
         border: 1px solid white;
         padding: 10px;
@@ -442,8 +442,9 @@
         background-color: #ccd0cf;
         cursor: pointer;
     }
+    /* #endregion */
 
-/* #region Footer Section*/
+    /* #region Footer Section*/
     footer{
     text-align: center;
     }
@@ -461,128 +462,87 @@
     }
 /* #endregion */
 
+    /* #endregion */
 
-  /*Tablet screeens*/
+  /* #region iPad Air*/
   @media screen and (min-width:768px) {
-
     section#hero{
-      
         background: url('../images/hero.webp') no-repeat center center / cover;
-        
       }
-
     nav{
         display: block;
         position: relative;
         box-shadow: none;
         width:fit-content;
-        padding-right: 1rem;
     }
-
     #menu{
         display: flex;
         align-items: baseline;
     }
-
     #menu > li {
         padding-left:1rem;
         padding-bottom: .7rem;
         font-size:1.2rem;
-        font-weight:800;
-          
+        font-weight:800;      
     }
-
     #menu a {
         font-weight: 600;
     }
-
+    /* Disable checkbox  */
     .nav-dropdown-label{display:none;}
-
+    
     header{
         background-color: #fff;
     }
-
     #logo{
         font-size:240%;
         padding: 0.5rem 0.5rem;
     }
-
     main{
         margin-top:55px;
         display: flex;
         flex: 1 0 auto;
-      }
-
- 
+      } 
     section#about{
         padding:65px 0; 
       }
-      
-  #about-container{
-    display: flex;
-    flex-direction: row;
-    padding: 50px 10px;
-   
-  }
-
-div.type-content>h4{
-     padding-top:70px;
- }
-
-  /*Satirin ayarlanmasi*/
-  .content{
-    display:flex;
-    flex-direction: row;
-    padding:10px 10px;
-    background-color: #fff;
-  }
-
-    
-
+    #about-container{
+        display: flex;
+        /* Because this is wide screen  */
+        flex-direction: row;
+    }
+    div.type-content>h4{
+        padding-top:70px;
+    }
+    .content{
+        display:flex;
+        flex-direction: column;
+        padding:10px 10px;
+        background-color: #fff;
+    }
+    .content-image>img {
+        height: 667px;
+    }
       div#contact-form {
-        max-width:70%;
-        
+        max-width:90%;
     }
-
-    /* Footer Section */
-
     footer > ul{
-        justify-content: space-evenly;
-   
-        
+        justify-content: space-evenly;    
     }
-
     #social i{
         font-size: 30px;
         color:rgba(4,85,191, 1);
     }
   }
+  /* #endregion */
 
-  /*Desktop Screens*/
+  /* #region Desktop*/
   @media screen and (min-width:992px){
     #menu a:hover{
         border-bottom: 1px solid #0455BF;
     }
-
-    #menu > li:hover{
-        color: rgba(242,62,46, .5);
-    }
-
-    section#hero{
-        width:100%;
-        background: url('../images/hero.webp') no-repeat center center / cover;
-        height: 650px;
-        position: relative;
-      }
-    
-      div#hero-background{
+    div#hero-background{
         width:55%;
-      }
-
-    main{
-        margin-top:55px;
-        display: flex;
-        flex: 1 0 auto;
-      }
-
+    }
   }
+  /* #endregion */
