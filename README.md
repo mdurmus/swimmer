@@ -163,11 +163,11 @@ It would be more useful if there was a search box where users could find informa
 
 #### Html validator
 
-Test result <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmdurmus.github.io%2Fswimmer">here</a>.
+Test result <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmdurmus.github.io%2Fswimmer">here</a>. No any errors.
 
 #### CSS Validator
 
-Test result <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmdurmus.github.io%2Fswimmer&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">here</a>.
+Test result <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmdurmus.github.io%2Fswimmer&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">here</a>. No any errors.
 
 #### Google Page Insight
 
@@ -182,6 +182,39 @@ You can see the test results with Google's Page Insight service, the undisputed 
 <img src="docs/readme_images/mob_per.png" alt="Mobile performance result">
 </div>
 
+#### Form Testing
+The form has been tested to ensure it would not submit without the required input fields being filled in (full name and email address).
+
+#### Links Testing
+All navigation links were tested manually to ensure the user is directed to the correct section of the website.
+Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page and open in a new tab.
+
+#### Browser Testing
+The Website was tested on Google Chrome, Firefox, Microsoft Edge, Safari browsers with no issues noted.
+
+#### Device Testing
+The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhoneX, Galaxy Fold, Surfaces and iPads to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
+
+#### Responsible Testing
+
+I also used the following websites to test responsiveness:
+
+ <a href="http://www.responsinator.com/?url=mdurmus.github.io%2Fswimmer%2F" title="Full responsive test result"> Responsinator </a>
+
+ <a href="https://ui.dev/amiresponsive?url=https://mdurmus.github.io/swimmer/" title="Full responsive test result"> Am i responsive</a>
+
+ #### Friends and Other Users Testing
+
+ Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+#### Known Bugs
+
+HTML Smooth Scroll does not work on Safari browser.
+
+## Technologies Used
+
++ HTML5
++ CSS
 
 
 All about swimmer
