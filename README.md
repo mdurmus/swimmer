@@ -126,6 +126,7 @@ It aims to invite its members to a healthy life through water sports, to build a
 + Our Policy
 The Swimmers swim club is committed to the privacy and personal information of its members. It mentions that sensitive information will never be used with third parties and the relevant rules. **To draw attention to the privacy here, a background color effect is applied in the hover state in this section!**
 
+<img src="docs/readme_images/about.png" alt="About section image">
 
 
 All about swimmer
