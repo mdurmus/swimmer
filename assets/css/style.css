@@ -410,11 +410,11 @@
         padding: 3px;
         margin: 3px 0 10px 0;
         height: 25px;
-        color:rgb(3,150,166);
+        color:rgb(4,85,191);
     }
     /* For input text placeholder color */
     ::placeholder{
-        color:rgb(3,150,166);
+        color:rgb(4,85,191);
     }
     textarea {
         border: 1px solid white;
@@ -422,14 +422,14 @@
         margin-top: 5px;
         width: 90%;
         height: 90px;
-        color:rgb(3,150,166);
+        color:rgb(4,85,191);
     }
     select{
         width:90%;
         border:1px solid #000;
         margin: 5px;
         height: 25px;
-        color:rgb(3,150,166);
+        color:rgb(4,85,191);
     }
     .submit-button {
         padding: 5px 5px;
