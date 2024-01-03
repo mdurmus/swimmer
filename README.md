@@ -144,8 +144,17 @@ This is a section where users can find answers to common questions about swimmin
 
 <img src="docs/readme_images/stype.png" alt="Freestyle swimming type image">
 
+### Contact Section
 
+In the contact section there is a video of a diving adventure in the background. Anyone, registered or unregistered, can use this form to contact the club with any comments, requests or information about the course. 
 
+<img src="docs/readme_images/contact.png" alt="Contact section image">
+
+### Footer Section
+
+The footer section includes links to Mind Yoga's Facebook, Instagram, Twitter and Youtube pages.The links will open to a new tab to allow easy navigation for the user. The footer is valuable to the user as it allows them to find and follow Mind Yoga on social media.
+
+<img src="docs/readme_images/footer.png" alt="Footer section image">
 
 
 All about swimmer
