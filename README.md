@@ -14,6 +14,8 @@
 
 <img src="docs/readme_images/responsive_result.webp" alt="Responsive Validation Image">
 
+[my link](https://myawesome.link)[newtab]
+
 
 
 
