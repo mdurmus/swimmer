@@ -156,6 +156,13 @@ The footer section includes links to Mind Yoga's Facebook, Instagram, Twitter an
 
 <img src="docs/readme_images/footer.png" alt="Footer section image">
 
+## Features Left to Implement
+It would be more useful if there was a search box where users could find information about swimming styles.
+
+## Testing
+
+Html validator testing -> 
+
 
 All about swimmer
 Policy hover effect.
