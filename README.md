@@ -19,9 +19,27 @@ With the number of members increasing day by day, it will be the biggest gain fo
 + To provide a user-friendly website that makes you feel like you are swimming in water with the use of responsive and appropriate colors and images.
 + Finally, with a form object, users can be informed about both their messages and the type of swimming they are interested in.
 
+## User Strories
 
+### First time users
 
++ As a first time user I want to understand the main purpose of the site and learn about the benefits of swimming for my mental and tranquility health.
 
++ As a first time user, I would like to understand how it will affect my body and soul about the sport of swimming on the website and be affected with a positive effect.
+
++ I want to have a simple experience, free of ads and other annoying screens.
+
+### Returning User
+
++ If you need to examine the benefits of different swimming styles, I can contact you for more information.
+
++ I would like to be informed with a content update in the area of benefits that I don't know about yet. 
+
++ I can learn about a new swimming style or change my swimming technique.
+
+### Frequent User
+
++ As a frequent user I want to be able to sign-up to the Swimmers newsletter in order to get updates about new poses added to the website.
 
 
 
