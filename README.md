@@ -128,6 +128,13 @@ The Swimmers swim club is committed to the privacy and personal information of i
 
 <img src="docs/readme_images/about.png" alt="About section image">
 
+### Benefits Section
+
+This is a section where users can find answers to common questions about swimming and their mental health or mental well-being. 
+
+<img src="docs/readme_images/benefits.png" alt="Benefits section image">
+
+
 
 All about swimmer
 Policy hover effect.
