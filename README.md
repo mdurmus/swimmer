@@ -10,6 +10,8 @@
 
 [Responsive](https://www.google.com){:target="_blank"}
 
+<a href="example.com" target="_blank">New Tab</a>
+
 <img src="docs/readme_images/responsive_result.webp" alt="Responsive Validation Image">
 
 
