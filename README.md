@@ -72,10 +72,12 @@ Wireframes were produced using <a href="https://balsamiq.com/">Balsamiq.</a>
 
 <details>
 <summary>Mobile Wireframes</summary>
+<img src="docs/wireframes_images/Mobile_wireframe.png" alt="Mobile Wireframe">
 </details>
 
 <details>
 <summary>Desktop Wireframes</summary>
+<img src="docs/wireframes_images/Desktop_wireframe.png" alt="Mobile Wireframe">
 </details>
 
 
