@@ -40,7 +40,7 @@
     <!--Main Content Area-->
     <main>
         <!--Hero Section-->
-        <section id="hero" aria-label="Hero section">
+        <section id="hero">
             <div id="hero-text-background">
                 <h2>Dive into the water, discover the secrets of freedom and tranquility!</h2>
             </div>
@@ -48,7 +48,7 @@
         <!--End of Hero Section-->
 
         <!--About Section-->
-        <section id="about" aria-label="About us">
+        <section id="about">
             <div id="about-header">
                 <h2>About Swimmers Club</h2>
             </div>
@@ -106,7 +106,7 @@
          <!--End of About Section-->
 
         <!--Benefits Section-->
-        <section id="benefits" aria-label="Benefits">
+        <section id="benefits">
             <div id="benefits-header">
                 <h2>The Benefits of Swimming</h2>
             </div>
@@ -114,7 +114,13 @@
                 <div id="benefits-container">    
                     <details class="benefits-detail" open>
                         <summary>Improves Overall Physical Fitness - Breathe more comfortably:</summary>
-                        <p>Swimming is an effective method for improving overall physical fitness. This activity, performed in water, engages multiple muscle groups simultaneously, enhancing endurance. Recognized as a cardiovascular exercise, swimming supports heart health and strengthens the circulatory system. Regular swimming also fortifies the respiratory system and keeps the body in shape. Additionally, it contributes to weight control. The low-impact nature of swimming minimizes stress on joints, supporting long-term improvements in fitness. Therefore, swimming proves to be an effective exercise option for those seeking to enhance and maintain their overall physical condition.</p>
+                        <p>Swimming is an effective method for improving overall physical fitness. This activity, performed in water, 
+                            engages multiple muscle groups simultaneously, enhancing endurance. Recognized as a cardiovascular exercise, 
+                            swimming supports heart health and strengthens the circulatory system. Regular swimming also fortifies the 
+                            respiratory system and keeps the body in shape. Additionally, it contributes to weight control. The low-impact
+                            nature of swimming minimizes stress on joints, supporting long-term improvements in fitness. Therefore, swimming 
+                            proves to be an effective exercise option for those seeking to enhance and maintain their overall physical 
+                            condition.</p>
                     </details>
                     <details class="benefits-detail">
                         <summary>Strengthens the Heart and Circulatory System:</summary>
@@ -131,9 +137,11 @@
                             scientific studies. According to research, swimming enhances 
                             cardiovascular endurance, regulates blood pressure, and maintains a 
                             healthy heart rhythm. Additionally, regular swimming lowers 
-                            <abbr title="low-density lipoprotein">LDL </abbr> ("bad" cholesterol) levels, reducing the risk of atherosclerosis. 
-                            Swimming contributes to weight control and improves overall mental 
-                            well-being by alleviating stress. <a href="https://www.who.int/news-room/fact-sheets/detail/physical-activity" target="_blank" rel="noopener noreferer" title="World Health Organisation" aria-label="for details World Health Organisation page">For more information</a>
+                            <abbr title="low-density lipoprotein">LDL </abbr> ("bad" cholesterol) levels, reducing the risk of 
+                            atherosclerosis. Swimming contributes to weight control and improves overall mental 
+                            well-being by alleviating stress. <a href="https://www.who.int/news-room/fact-sheets/detail/physical-activity" 
+                            target="_blank" rel="noopener noreferer" title="World Health Organisation" 
+                            aria-label="for details World Health Organisation page">For more information</a>
                         </p>
                     </details>
                     <details class="benefits-detail">
@@ -175,7 +183,7 @@
          <!--End of Benefits Section-->
 
         <!--Swimming Types-->
-        <section id="types" aria-label="Swimming types">
+        <section id="types">
             <div id="types-header">
                 <h2>Swimming Types</h2>
             </div>
@@ -308,7 +316,7 @@
         <section id="contact" aria-label="Contact us">
                 <h2>Contact Us</h2>
                 <div id="video-container">
-                    <video  autoplay muted loop aria-label="There is a video of people jumping into the sea">
+                    <video  autoplay muted loop>
                         <source src="assets/images/contact_video.mp4"
                          type="video/mp4">
                      </video>
@@ -320,19 +328,19 @@
                             <fieldset>
                             <legend> Contact Information </legend>
                             <label for="fullname">Full Name</label><br>
-                            <input type="text" tabindex="1" name="full_name" placeholder="Your full name" id="fullname" class="text-input" required aria-label="Your name"><br>
+                            <input type="text" name="full_name" placeholder="Your full name" id="fullname" class="text-input" required aria-label="Your name"><br>
                            
                             <label for="tel">Your Phone</label><br>
-                            <input type="tel" tabindex="2" name="tel" placeholder="+1 234 567" id="tel" class="text-input" aria-label="Your Phone Number"><br>
+                            <input type="tel" name="tel" placeholder="+1 234 567" id="tel" class="text-input" aria-label="Your Phone Number"><br>
                             
                             <label for="email">Email</label><br>
-                            <input type="email" tabindex="3" name="email" placeholder="Your e-mail" id="email" class="text-input" required aria-label="Your Email"><br>
+                            <input type="email" name="email" placeholder="Your e-mail" id="email" class="text-input" required aria-label="Your Email"><br>
                            </fieldset>
 
                            <fieldset>
                             <legend> Swimming style of interest </legend>
                             <label for="swimmingtype">Swimming Style</label><br>
-                            <select name="swimmingtype" tabindex="4" id="swimmingtype" aria-label="Select swimming type">
+                            <select name="swimmingtype" id="swimmingtype" aria-label="Select swimming type">
                                 <option value="Select">Please select...</option>
                                 <option value="freestyle">Freestyle</option>
                                 <option value="butterfly">Butterfly</option>
@@ -340,7 +348,7 @@
                                 <option value="backstroke">Backstroke</option>
                             </select>
                             <label for="purposetype">Your Swimming Purpose</label>
-                            <select name="purposetype" tabindex="5" id="purposetype" aria-label="Select swimming purpose">
+                            <select name="purposetype" id="purposetype" aria-label="Select swimming purpose">
                                 <option value="Select">Please select...</option>
                                 <option value="physical">Physical Health</option>
                                 <option value="injury">Injury and Joint-Friendly</option>
@@ -351,9 +359,9 @@
                            </fieldset>
                            
                             <label for="message">Your Message</label><br>
-                            <textarea name="message" tabindex="6" placeholder="Please write your message here." id="message"></textarea><br>
+                            <textarea name="message" placeholder="Please write your message here." id="message"></textarea><br>
                             
-                            <input type="submit" value="Submit" tabindex="7" aria-label="send email" class="submit-button">
+                            <input type="submit" value="Submit" class="submit-button">
                         </form>
                     </div>
                 </div>
