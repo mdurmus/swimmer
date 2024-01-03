@@ -146,7 +146,7 @@ This is a section where users can find answers to common questions about swimmin
 
 ### Contact Section
 
-In the contact section there is a video of a diving adventure in the background. Anyone, registered or unregistered, can use this form to contact the club with any comments, requests or information about the course. Also tabindex values are defined for users to navigate through form objects.
+In the contact section there is a video of a diving adventure in the background. Anyone, registered or unregistered, can use this form to contact the club with any comments, requests or information about the course.
 
 <img src="docs/readme_images/contact.png" alt="Contact section image">
 
