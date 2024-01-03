@@ -161,7 +161,27 @@ It would be more useful if there was a search box where users could find informa
 
 ## Testing
 
-Html validator testing -> 
+#### Html validator
+
+Test result <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmdurmus.github.io%2Fswimmer">here</a>.
+
+#### CSS Validator
+
+Test result <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmdurmus.github.io%2Fswimmer&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">here</a>.
+
+#### Google Page Insight
+
+You can see the test results with Google's Page Insight service, the undisputed leader in the industry:
+
+***Desktop Version***
+
+<img src="docs/readme_images/desk_per.png" alt="Desktop performance result">
+
+***Mobile Version***
+<div>
+<img src="docs/readme_images/mob_per.png" alt="Mobile performance result">
+</div>
+
 
 
 All about swimmer
