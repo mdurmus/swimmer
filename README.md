@@ -6,6 +6,8 @@
 
 <p>You can also find the full document for mobile compatibility <a href="http://www.responsinator.com/?url=mdurmus.github.io%2Fswimmer%2F" target="_blank">here.</a></p>
 
+[link](http://www.responsinator.com/?url=mdurmus.github.io%2Fswimmer%2F){:target="_blank"}
+
 <img src="docs/readme_images/responsive_result.webp" alt="Responsive Validation Image">
 
 
