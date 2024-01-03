@@ -96,9 +96,11 @@ Wireframes were produced using <a href="https://balsamiq.com/">Balsamiq.</a>
 + On mobile device screens, the menu is displayed as a bar, while on desktop computer screens it is displayed in full.
 
 ***Desktop Menu***
+
 <img src="docs/readme_images/desktop_menu.png" alt="Desktop menu image">
 
-***Mobile Menu***
+***Mobile Menu***<br>
+
 <img src="docs/readme_images/mobile_menu.png" alt="Mobile menu image">
 
 
