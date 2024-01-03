@@ -216,6 +216,20 @@ HTML Smooth Scroll does not work on Safari browser.
 + HTML5
 + CSS
 
+## Frameworks - Libraries - Programs Used
+
++ <a href="">Am I Responsive</a> - Used to verify responsiveness of website on different devices.
++ <a href="">Responsinator</a> - Used to verify responsiveness of website on different devices.
++ <a href="">Balsamiq</a> - Used to generate Wireframe images.
++ <a href="">Chrome Dev Tools</a> - Used for overall development and tweaking, including testing responsiveness and performance.
++ <a href="">Font Awesome</a> - Used for Social Media icons in footer.
++ <a href="">GitHub</a> - Used for version control and hosting.
++ <a href="">Google Fonts</a> - Used to import and alter fonts on the page.
++ <a href="">TinyPNG</a> - Used to compress images to reduce file size without a reduction in quality.
++ <a href="">W3C</a> - Used for HTML & CSS Validation.
+
+
+
 
 All about swimmer
 Policy hover effect.
