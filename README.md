@@ -111,8 +111,20 @@ The Landing area welcomes its users with an image and text explaining the purpos
 
 ### About Section
 
+The About section consists of two main parts. The first part provides information about the Swimmers club and the second part provides information about the privacy policy.
 
+ + Who are we? 
+ This section talks about the year the club was founded, the events organized and how they bring people together in social spaces.
 
+ +  What do we do?
+
+The "Swimmers" club improves water skills with weekly lessons and promotes health through seminars. It fosters bonds with social events and offers fun through swimming contests. Health check-ups and counseling services prioritize members' well-being.
+
++ Our Vision
+It aims to invite its members to a healthy life through water sports, to build a strong bond between members and in general, these goals are mentioned.
+
++ Our Policy
+The Swimmers swim club is committed to the privacy and personal information of its members. It mentions that sensitive information will never be used with third parties and the relevant rules. **To draw attention to the privacy here, a background color effect is applied in the hover state in this section!**
 
 All about swimmer
 Policy hover effect.
