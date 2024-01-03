@@ -134,6 +134,20 @@ This is a section where users can find answers to common questions about swimmin
 
 <img src="docs/readme_images/benefits.png" alt="Benefits section image">
 
+### Swimming Types Section
+
++ Swimming Types: In this section, swimming styles have been categorized under four headings. These are freestyle, butterfly, breaststroke and backstroke. An image of each of these headings has been added to the page as a link. When users click on the button of the swimming style, they will be transferred to the relevant section of the page.
+
+<img src="docs/readme_images/stypes.png" alt="Swimming types image">
+
++ Swimming Type: This section contains a visualization of the swimming technique concerned. Below this image there is a link "Back to Types". When the user clicks on this link, they will be able to easily access the Swimming Types Menu again. 
+
+In the next paragraph there are three separate headings and paragraphs describing three different advantages of the swimming style over other swimming styles. 
+
+<img src="docs/readme_images/stype.png" alt="Freestyle swimming type image">
+
+
+
 
 
 All about swimmer
