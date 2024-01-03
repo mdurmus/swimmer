@@ -146,7 +146,7 @@ This is a section where users can find answers to common questions about swimmin
 
 ### Contact Section
 
-In the contact section there is a video of a diving adventure in the background. Anyone, registered or unregistered, can use this form to contact the club with any comments, requests or information about the course. 
+In the contact section there is a video of a diving adventure in the background. Anyone, registered or unregistered, can use this form to contact the club with any comments, requests or information about the course. Also tabindex values are defined for users to navigate through form objects.
 
 <img src="docs/readme_images/contact.png" alt="Contact section image">
 
@@ -228,11 +228,29 @@ HTML Smooth Scroll does not work on Safari browser.
 + <a href="">TinyPNG</a> - Used to compress images to reduce file size without a reduction in quality.
 + <a href="">W3C</a> - Used for HTML & CSS Validation.
 
+## Deployment
 
+The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
 
+Go to the repository on GitHub.com
+Select 'Settings' near the top of the page.
+Select 'Pages' from the menu bar on the left of the page.
+Under 'Source' select the 'Branch' dropdown menu and select the main branch.
+Once selected, click the 'Save'.
+Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
+The live link can be found here - <a href="https://mdurmus.github.io/swimmers">SWIMMERS</a>
 
-All about swimmer
-Policy hover effect.
-details feature from sitepoint
-all text generated with chat gpt.
-Font - > https://webflow.com/blog/fonts-for-web-design 
+## Credits
+
+### Content
+All text content taken from <a href="https://chat.openai.com/">ChatGPT</a>.
+
+### Media
+All media elements provided by <a href="https://stock.adobe.com/">Adobe Stock</a>.
+
+## Resources Used
+I used some HTML and CSS tags from <a href="https://www.w3schools.com/">W3Schools</a>
+Inspiration for dropdown nav bar <a href="https://www.codeinstitute.net">Code Institute</a>'s training videos.
+
+# Acknowledgments
+I would like to thank my mentor (Antonio Rodriguez) for her help in all my difficult moments. 
