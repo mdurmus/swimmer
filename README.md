@@ -140,9 +140,7 @@ This is a section where users can find answers to common questions about swimmin
 
 <img src="docs/readme_images/stypes.png" alt="Swimming types image">
 
-+ Swimming Type: This section contains a visualization of the swimming technique concerned. Below this image there is a link "Back to Types". When the user clicks on this link, they will be able to easily access the Swimming Types Menu again. 
-
-In the next paragraph there are three separate headings and paragraphs describing three different advantages of the swimming style over other swimming styles. 
++ Swimming Type: This section contains a visualization of the swimming technique concerned. Below this image there is a link "Back to Types". When the user clicks on this link, they will be able to easily access the Swimming Types Menu again. In the next three paragraph there are three separate headings and paragraphs describing three different advantages of the swimming style over other swimming styles. 
 
 <img src="docs/readme_images/stype.png" alt="Freestyle swimming type image">
 
