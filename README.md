@@ -101,11 +101,17 @@ Wireframes were produced using <a href="https://balsamiq.com/">Balsamiq.</a>
 
 ***Mobile Menu***<br>
 
-<img src="docs/readme_images/mobile_menu.png" alt="Mobile menu image">
+<div><img src="docs/readme_images/mobile_menu.png" alt="Mobile menu image"></div>
+
+### Hero Section
+
+The Landing area welcomes its users with an image and text explaining the purpose of the site. This section provides the user with a clear visual representation of the purpose of the site.
+
+<img src="docs/readme_images/hero.png" alt="Hero section image">
+
+### About Section
 
 
-
-deneme
 
 
 All about swimmer
