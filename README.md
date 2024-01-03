@@ -85,6 +85,22 @@ Wireframes were produced using <a href="https://balsamiq.com/">Balsamiq.</a>
 
 ### Navigation
 
++ We have a fully responsive menu bar. In this bar we have Home, About, Types, Benefits and Contact hyperlinks.
+
++ This menu bar works responsively according to the pixel size of the device screen and supports responsive design.
+
++ A drop shadow was applied to the navigation bar to make sure that it doesn't blend into the other sections of the page upon scrolling.
+
++ This section allows the user to easily navigate through the site to find content without having to scroll back up to the top of the page or use the browser back button.
+
++ On mobile device screens, the menu is displayed as a bar, while on desktop computer screens it is displayed in full.
+
+***Desktop Menu***
+<img src="docs/readme_images/desktop_menu.png" alt="Desktop menu image">
+
+***Mobile Menu***
+<img src="docs/readme_images/mobile_menu.png" alt="Mobile menu image">
+
 
 
 deneme
