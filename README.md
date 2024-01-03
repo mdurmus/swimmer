@@ -8,6 +8,8 @@
 
 [link](http://www.responsinator.com/?url=mdurmus.github.io%2Fswimmer%2F){:target="_blank"}
 
+[Responsive](https://www.google.com){:target="_blank"}
+
 <img src="docs/readme_images/responsive_result.webp" alt="Responsive Validation Image">
 
 
