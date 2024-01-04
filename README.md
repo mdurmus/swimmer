@@ -6,7 +6,7 @@ At first glance; our website provides information about the swimmers club and pr
 
 Link to the page: [Swimmers](https://mdurmus.github.io/swimmer) <sub><sup>Ctrl + click to open in new window</sup></sub>
 
-You can also find the full document for mobile compatibility [Responsive Test Result](http://www.responsinator.com/?url=mdurmus.github.io%2Fswimmer%2F)<sub><sup>Ctrl + click to open in new window</sup></sub>
+You can also find the full document for mobile compatibility [Responsive Test Result](http://www.responsinator.com/?url=mdurmus.github.io%2Fswimmer%2F) <sub><sup>Ctrl + click to open in new window</sup></sub>
 
 <img src="docs/readme_images/responsive_result.webp" alt="Responsive Validation Image">
 
