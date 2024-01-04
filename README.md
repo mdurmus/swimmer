@@ -4,9 +4,9 @@ Swimmers is the website of an imaginary swimming association. The aim of this as
 
 At first glance; our website provides information about the swimmers club and presents the text of a policy. It explains the benefits of swimming and why we should choose to swim. It lists the advantages of different types of swimming. And a contact form allows you to get in touch. And of course you can access detailed information through the social media pages.
 
-Link to the page: <a href="https://mdurmus.github.io/swimmer/" title="Live link" target="_blank">Swimmers Home Page</a> <sub><sup>Ctrl + click to open in new window</sup></sub>
+Link to the page: [Swimmers](https://mdurmus.github.io/swimmer) <sub><sup>Ctrl + click to open in new window</sup></sub>
 
-You can also find the full document for mobile compatibility <a href="http://www.responsinator.com/?url=mdurmus.github.io%2Fswimmer%2F" title="Full responsive test result" target="_blank">here.</a> <sub><sup>Ctrl + click to open in new window</sup></sub>
+You can also find the full document for mobile compatibility [Swimmer responsive Test Result](http://www.responsinator.com/?url=mdurmus.github.io%2Fswimmer%2F)<sub><sup>Ctrl + click to open in new window</sup></sub>
 
 <img src="docs/readme_images/responsive_result.webp" alt="Responsive Validation Image">
 
