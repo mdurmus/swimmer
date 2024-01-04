@@ -243,11 +243,10 @@
         font-weight:500;
     } 
     .benefits-detail>ul{
-        padding-left:12px;
+        padding-left:25px;
     }
     .benefits-detail li{
         list-style-type:disc;
-        padding-left:15px;
         font-weight:bold;
         margin-bottom:5px;
     } 
