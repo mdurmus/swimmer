@@ -60,7 +60,7 @@ In order to achieve a good contrast ratio, shades of blue, green and black are u
 
 ### Fonts
 
-The ***Libre Franklin*** font is the main font used throughout the whole website. This font was imported via <a href="https://fonts.google.com/">Google Fonts</a>. I'm using Sans Serif as a backup font, in case for any reason the main font isn't being imported into the site correctly.
+The ***Libre Franklin*** font is the main font used throughout the whole website. This font was imported via [Google Fonts](https://fonts.google.com/). I'm using Sans Serif as a backup font, in case for any reason the main font isn't being imported into the site correctly.
 
 ## Wireframes
 
