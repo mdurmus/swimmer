@@ -6,7 +6,7 @@ At first glance; our website provides information about the swimmers club and pr
 
 Link to the page: [Swimmers](https://mdurmus.github.io/swimmer) <sub><sup>Ctrl + click to open in new window</sup></sub>
 
-You can also find the full document for mobile compatibility [Swimmer responsive Test Result](http://www.responsinator.com/?url=mdurmus.github.io%2Fswimmer%2F)<sub><sup>Ctrl + click to open in new window</sup></sub>
+You can also find the full document for mobile compatibility [Responsive Test Result](http://www.responsinator.com/?url=mdurmus.github.io%2Fswimmer%2F)<sub><sup>Ctrl + click to open in new window</sup></sub>
 
 <img src="docs/readme_images/responsive_result.webp" alt="Responsive Validation Image">
 
@@ -64,7 +64,7 @@ The ***Libre Franklin*** font is the main font used throughout the whole website
 
 ## Wireframes
 
-Wireframes were produced using [Balsamiq](https://balsamiq.com/)
+Wireframes were produced using [Balsamiq](https://balsamiq.com/).
 
 <details>
 <summary>Mobile Wireframes</summary>
@@ -159,11 +159,11 @@ It would be more useful if there was a search box where users could find informa
 
 #### Html Validator
 
-Test result [HMTL Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmdurmus.github.io%2Fswimmer) for HTML validator. No any errors.
+[W3C Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmdurmus.github.io%2Fswimmer) for HTML code. No errors were returned.
 
 #### CSS Validator
 
-Test result [CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmdurmus.github.io%2Fswimmer&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) for CSS validator. No any errors.
+[W3C CSS Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmdurmus.github.io%2Fswimmer&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) for CSS code. No errors were returned.
 
 #### Google Page Insight
 
@@ -195,9 +195,9 @@ The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8
 
 I also used the following websites to test responsiveness:
 
- Full test result with Responsinator: [Full test result](http://www.responsinator.com/?url=mdurmus.github.io%2Fswimmer%2F)
+ [Responsinator](http://www.responsinator.com/?url=mdurmus.github.io%2Fswimmer%2F)
 
- Full test result with Am I responsive:[Am i responsive](https://ui.dev/amiresponsive?url=https://mdurmus.github.io/swimmer)
+ [Am i responsive](https://ui.dev/amiresponsive?url=https://mdurmus.github.io/swimmer)
 
  #### Friends and Other Users Testing
 
