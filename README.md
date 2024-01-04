@@ -201,7 +201,7 @@ I also used the following websites to test responsiveness:
 
  ## Fixed Bug
  ### List items moving out of detail object
- In the benefits section, in the second paragraph of benefits, the list exceeded the limits of the detail section. To fix this error, in my CSS code, I set ```padding-left:25px``` for the unordered list. You can find it in style.css file on line 245. 
+ In the benefits section, in the second paragraph of benefits, the list exceeded the limits of the detail section. To fix this error, in my CSS code, I set ```padding-left:25px;``` for the unordered list. You can find it in style.css file on line 245. 
 
 ### Known Bugs
 HTML Smooth Scroll does not work on Safari browser.
