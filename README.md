@@ -157,7 +157,7 @@ It would be more useful if there was a search box where users could find informa
 
 ## Testing
 
-#### Html validator
+#### Html Validator
 
 Test result [HMTL Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmdurmus.github.io%2Fswimmer) for HTML validator. No any errors.
 
@@ -171,11 +171,11 @@ You can see the test results with Google's Page Insight service, the undisputed 
 
 ***Desktop Version***
 
-<img src="docs/readme_images/desk_per.png" alt="Desktop performance result">
+<img src="docs/readme_images/desktop_performance.png" alt="Desktop performance result">
 
 ***Mobile Version***
 <div>
-<img src="docs/readme_images/mob_per.png" alt="Mobile performance result">
+<img src="docs/readme_images/mobile_performance.png" alt="Mobile performance result">
 </div>
 
 #### Form Testing
