@@ -246,7 +246,10 @@ All media elements provided by [Adobe Stock](https://stock.adobe.com).
 
 ## Resources Used
 I used some HTML and CSS tags from [W3Schools](https://www.w3schools.com)
+
 Inspiration for dropdown nav bar [Code Institute](https://www.codeinstitute.net)'s training videos.
+
+I was inspired by AliOKeeffe's file while preparing the readme.md file. [AliOKeeffe Github](https://github.com/AliOKeeffe/mindyoga) 
 
 # Acknowledgments
 I would like to thank my mentor (Antonio Rodriguez) for her help in all my difficult moments. 
