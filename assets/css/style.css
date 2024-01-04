@@ -227,7 +227,6 @@
     }
     .benefits-detail > summary{
         list-style-position: inside;
-        list-style-type: armenian;
         margin-left: 10px;
         padding: 10px 15px;
         border-radius: 5px;
@@ -243,7 +242,7 @@
         font-weight:500;
     } 
     .benefits-detail>ul{
-        padding-left:25px;
+        padding-left:35px;
     }
     .benefits-detail li{
         list-style-type:disc;
@@ -549,6 +548,9 @@
     }
     div#hero-text-background{
         width:55%;
+    }
+    .benefits-detail>ul{
+        padding-left:35px;
     }
     div.content-image{
         text-align: center;
