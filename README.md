@@ -45,10 +45,6 @@ With the number of members increasing day by day, it will be the biggest gain fo
 
 When it comes to site design, we should remember two main topics: Visual design and coding design. For coded design, two different declarative languages are used: HTML and CSS.
 
-### Code Design
-
-You can find detailed information about HTML <a href="https://dev.w3.org/html5/spec-LC/">here</a> and CSS <a href="https://www.w3.org/Style/CSS/Overview.en.html">here</a>.
-
 ### Visual Design
 
 #### Imagery
