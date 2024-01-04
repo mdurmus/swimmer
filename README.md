@@ -64,7 +64,7 @@ The ***Libre Franklin*** font is the main font used throughout the whole website
 
 ## Wireframes
 
-Wireframes were produced using <a href="https://balsamiq.com/">Balsamiq.</a>
+Wireframes were produced using [Balsamiq](https://balsamiq.com/)
 
 <details>
 <summary>Mobile Wireframes</summary>
@@ -136,7 +136,7 @@ This is a section where users can find answers to common questions about swimmin
 
 <img src="docs/readme_images/stypes.png" alt="Swimming types image">
 
-+ Swimming Type: This section contains a visualization of the swimming technique concerned. Below this image there is a link "Back to Types". When the user clicks on this link, they will be able to easily access the Swimming Types Menu again. In the next three paragraph there are three separate headings and paragraphs describing three different advantages of the swimming style over other swimming styles. 
++ Swimming Type: This section contains a visualization of the swimming technique concerned. Below this image there is a link **Back to Types**. When the user clicks on this link, they will be able to easily access the Swimming Types Menu again. In the next three paragraph there are three separate headings and paragraphs describing three different advantages of the swimming style over other swimming styles. 
 
 <img src="docs/readme_images/stype.png" alt="Freestyle swimming type image">
 
@@ -159,11 +159,11 @@ It would be more useful if there was a search box where users could find informa
 
 #### Html validator
 
-Test result <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fmdurmus.github.io%2Fswimmer">here</a>. No any errors.
+Test result [HMTL Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmdurmus.github.io%2Fswimmer) for HTML validator. No any errors.
 
 #### CSS Validator
 
-Test result <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmdurmus.github.io%2Fswimmer&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">here</a>. No any errors.
+Test result [CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmdurmus.github.io%2Fswimmer&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) for CSS validator. No any errors.
 
 #### Google Page Insight
 
@@ -195,9 +195,9 @@ The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8
 
 I also used the following websites to test responsiveness:
 
- <a href="http://www.responsinator.com/?url=mdurmus.github.io%2Fswimmer%2F" title="Full responsive test result"> Responsinator </a>
+ Full test result with Responsinator: [Full test result](http://www.responsinator.com/?url=mdurmus.github.io%2Fswimmer%2F)
 
- <a href="https://ui.dev/amiresponsive?url=https://mdurmus.github.io/swimmer/" title="Full responsive test result"> Am i responsive</a>
+ Full test result with Am I responsive:[Am i responsive](https://ui.dev/amiresponsive?url=https://mdurmus.github.io/swimmer)
 
  #### Friends and Other Users Testing
 
@@ -214,15 +214,15 @@ HTML Smooth Scroll does not work on Safari browser.
 
 ## Frameworks - Libraries - Programs Used
 
-+ <a href="">Am I Responsive</a> - Used to verify responsiveness of website on different devices.
-+ <a href="">Responsinator</a> - Used to verify responsiveness of website on different devices.
-+ <a href="">Balsamiq</a> - Used to generate Wireframe images.
-+ <a href="">Chrome Dev Tools</a> - Used for overall development and tweaking, including testing responsiveness and performance.
-+ <a href="">Font Awesome</a> - Used for Social Media icons in footer.
-+ <a href="">GitHub</a> - Used for version control and hosting.
-+ <a href="">Google Fonts</a> - Used to import and alter fonts on the page.
-+ <a href="">TinyPNG</a> - Used to compress images to reduce file size without a reduction in quality.
-+ <a href="">W3C</a> - Used for HTML & CSS Validation.
++ [Am I Responsive](https://ui.dev/amiresponsive) - Used to verify responsiveness of website on different devices.
++ [Responsinator](http://www.responsinator.com/) - Used to verify responsiveness of website on different devices.
++ [Balsamiq](https://balsamiq.com/) - Used to generate Wireframe images.
++ [Chrome Dev Tools](https://developer.chrome.com/docs/devtools?hl=en) - Used for overall development and tweaking, including testing responsiveness and performance.
++ [Font Awesome](https://fontawesome.com/) - Used for Social Media icons in footer.
++ [GitHub](https://github.com/) - Used for version control and hosting.
++ [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
++ [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size without a reduction in quality.
++ [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
 
 ## Deployment
 
@@ -234,19 +234,19 @@ Select 'Pages' from the menu bar on the left of the page.
 Under 'Source' select the 'Branch' dropdown menu and select the main branch.
 Once selected, click the 'Save'.
 Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
-The live link can be found here - <a href="https://mdurmus.github.io/swimmers">SWIMMERS</a>
+The live link can be found here - [Swimmers](https://mdurmus.github.io/swimmers)
 
 ## Credits
 
 ### Content
-All text content taken from <a href="https://chat.openai.com/">ChatGPT</a>.
+All text content taken from [Chat GPT](https://chat.openai.com).
 
 ### Media
-All media elements provided by <a href="https://stock.adobe.com/">Adobe Stock</a>.
+All media elements provided by [Adobe Stock](https://stock.adobe.com).
 
 ## Resources Used
-I used some HTML and CSS tags from <a href="https://www.w3schools.com/">W3Schools</a>
-Inspiration for dropdown nav bar <a href="https://www.codeinstitute.net">Code Institute</a>'s training videos.
+I used some HTML and CSS tags from [W3Schools](https://www.w3schools.com)
+Inspiration for dropdown nav bar [Code Institute](https://www.codeinstitute.net)'s training videos.
 
 # Acknowledgments
 I would like to thank my mentor (Antonio Rodriguez) for her help in all my difficult moments. 
