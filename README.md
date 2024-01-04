@@ -43,11 +43,7 @@ With the number of members increasing day by day, it will be the biggest gain fo
 
 ## Design
 
-When it comes to site design, we should remember two main topics: Visual design and coding design. For coded design, two different declarative languages are used: HTML and CSS.
-
-### Visual Design
-
-#### Imagery
+### Imagery
 The visuals used on the Swimmers site are very important in terms of the message to the user. All the images use swimming pools, sometimes indoors and sometimes outdoors. There is also a video that conveys the message that they can venture out to the open seas and experience the richness of nature forever. This has great benefits for mental health and evokes in the user a sense of the importance of experience and experimentation. The predominant colors are blue and green, colors that convey peace and a sense of movement. It is important because it ties in with the main color scheme of the site.
 
 ### Colours
@@ -152,20 +148,20 @@ The footer section includes links to Mind Yoga's Facebook, Instagram, Twitter an
 
 <img src="docs/readme_images/footer.png" alt="Footer section image">
 
-## Features Left to Implement
+### Features Left to Implement
 It would be more useful if there was a search box where users could find information about swimming styles.
 
 ## Testing
 
-#### Html Validator
+### Html Validator
 
 [W3C Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmdurmus.github.io%2Fswimmer) for HTML code. No errors were returned.
 
-#### CSS Validator
+### CSS Validator
 
 [W3C CSS Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmdurmus.github.io%2Fswimmer&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) for CSS code. No errors were returned.
 
-#### Google Page Insight
+### Google Page Insight
 
 You can see the test results with Google's Page Insight service, the undisputed leader in the industry:
 
@@ -178,20 +174,20 @@ You can see the test results with Google's Page Insight service, the undisputed 
 <img src="docs/readme_images/mobile_performance.png" alt="Mobile performance result">
 </div>
 
-#### Form Testing
+### Form Testing
 The form has been tested to ensure it would not submit without the required input fields being filled in (full name and email address).
 
-#### Links Testing
+### Links Testing
 All navigation links were tested manually to ensure the user is directed to the correct section of the website.
 Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page and open in a new tab.
 
-#### Browser Testing
+### Browser Testing
 The Website was tested on Google Chrome, Firefox, Microsoft Edge, Safari browsers with no issues noted.
 
-#### Device Testing
+### Device Testing
 The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhoneX, Galaxy Fold, Surfaces and iPads to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
 
-#### Responsible Testing
+### Responsible Testing
 
 I also used the following websites to test responsiveness:
 
@@ -199,11 +195,11 @@ I also used the following websites to test responsiveness:
 
  [Am i responsive](https://ui.dev/amiresponsive?url=https://mdurmus.github.io/swimmer)
 
- #### Friends and Other Users Testing
+ ### Friends and Other Users Testing
 
  Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
- #### Fixed Bugs
+ #### Fixed Bug
  ##### List items moving out of detail object
  In the benefits section, in the second paragraph of benefits, the list exceeded the limits of the detail section. To fix this error, in my CSS code, I set padding-left:25px for the unordered list. You can find it in style.css file on line 245. 
 
